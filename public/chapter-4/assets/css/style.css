@@ -1,0 +1,199 @@
+body {
+  background: #9c835f;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+.panah {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #724c21;
+}
+.title h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #f9b23d;
+  padding-left: 20px;
+}
+
+/* Main Game */
+
+.section-game {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 450 - 750px) {
+  .section-game {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .section-game {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 40px;
+  }
+}
+
+.section-game .player-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-sectiongame {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.img-suit {
+  width: 15vh;
+}
+
+.content-tengah {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.refresh-button {
+  margin-top: 20vh;
+  /* background: red; */
+}
+
+#vs h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 196px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #bd0000;
+}
+
+.player-batu {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.player-batu:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.player-kertas {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.player-kertas:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.player-gunting {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.player-gunting:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.com-batu {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.com-batu:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.com-kertas {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.com-kertas:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.com-gunting {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.com-gunting:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 750px) {
+  .section-game .player-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-sectiongame {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .img-suit {
+    width: 9vh;
+  }
+
+  .content-tengah {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .refresh-button {
+    margin-top: 20vh;
+    /* background: red; */
+  }
+
+  #vs h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #bd0000;
+  }
+}
+
+/* @media only screen and (max-width: 450px) {
+  .section-game {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 40px;
+  }
+} */

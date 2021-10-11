@@ -1,0 +1,662 @@
+
+@media only screen and (max-width: 850px) {
+  .navbar {
+    display: flex;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+
+    background: white !important;
+  }
+
+  /* Logo */
+  .navbar-light .navbar-brand {
+    color: black !important;
+  }
+
+  /* Link Navbar */
+  .navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    padding-left: 30px;
+  }
+
+  #navbarSupportedContent {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Link Active Navbar */
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: blue;
+  }
+
+  /* Background mainmenu */
+  .mainmenu {
+    background-image: url("assets/main-bg.jpg");
+    /* background-size: 100%; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1000px; */
+  }
+
+  /* Isi mainmenu */
+  .child-mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .child-mainmenu h1 {
+    text-align: center;
+    padding-top: 30%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px !important;
+    line-height: 83px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 2%;
+
+    color: #ffffff;
+  }
+
+  .child-mainmenu h3 {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding-bottom: 3%;
+  }
+
+  .playnowbtn {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+    border-radius: 4px;
+    font-weight: 700;
+  }
+
+  .scroll-down {
+    text-align: center;
+
+    color: white;
+    left: 47.66%;
+    right: 47.61%;
+    top: 91.03%;
+    bottom: 6.4%;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+
+    text-transform: uppercase;
+  }
+
+  .thegames {
+    /* display: flex; */
+    background-image: url("assets/the-games-bg.jpg");
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 0px;
+    padding: 5%;
+  }
+
+  .thegames-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .thegames-center .carouselmenu {
+          align-items: center;
+        } */
+
+  .content-games {
+    /* background-color: red; */
+    height: 100%;
+  }
+  .carousel-games {
+    /* background-color: blue; */
+    height: 100%;
+  }
+
+  .content-games h3 {
+    font-family: Arial !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    letter-spacing: 2px !important;
+    text-align: center !important;
+    margin-top: 100px !important;
+    color: #ffffff !important;
+  }
+
+  .content-games h1 {
+    font-family: Arial !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 35px !important;
+    line-height: 45px !important;
+    text-align: center !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+
+    color: #ffffff !important;
+  }
+
+  .carousel-games .carousel-ini {
+    margin-top: 50px !important;
+  }
+
+  .features {
+    background-image: url("assets/features-crop.jpg");
+    background-position: right !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 130vh;
+    margin-top: 0px;
+  }
+
+  /* Isi Features */
+  .content-features {
+    height: 100%;
+    margin-left: 40px !important;
+  }
+
+  .content-features h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 200px;
+
+    letter-spacing: 2px;
+
+    color: #ffffff;
+  }
+
+  .content-features h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  li.circle {
+    color: white;
+    list-style-type: circle;
+    margin-top: -35px;
+  }
+
+  li.circle1 {
+    color: white;
+    list-style-type: circle;
+    margin-top: -35px;
+  }
+
+  .list-style p {
+    color: white;
+    border-left: 3px solid white;
+    padding: 15px;
+    position: relative;
+    left: -16px;
+    top: -10px;
+    padding-bottom: -15px;
+    padding-bottom: 60px;
+  }
+
+  .title-traditionalgame {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #ffb548;
+  }
+
+  /* Background System Requirement */
+  .system-requirement {
+    background-image: url("assets/requirements.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    margin-top: 0px;
+  }
+
+  .system-allisi {
+    padding: 0px !important;
+    padding-left: 20px !important;
+    padding-top: 50px !important;
+  }
+
+  .system-requirement h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+  }
+
+  .system-requirement h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+    line-height: 25px !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .title-table {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #ffb548;
+  }
+
+  .table > :not(caption) > * > * {
+    padding-bottom: 30px;
+  }
+
+  /* Background Top Scorer */
+  .top-scorer {
+    background-image: url("assets/bg-image-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100% !important;
+    margin-top: -2px;
+    padding-bottom: 40% !important;
+  }
+
+  .top-scorer-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .top-scorer-title {
+    /* background-color: blue; */
+    height: 100% !important;
+    /* width: 40%; */
+    margin: 1%;
+    margin-top: 80px;
+  }
+
+  .isi-title {
+    /* background-color: green; */
+    align-items: center;
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-top: 80px;
+    padding-left: 0px !important;
+  }
+
+  .isi-title h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px !important;
+    line-height: 40px !important;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .isi-title p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    color: #ffffff;
+  }
+
+  .top-scorer-testimoni {
+    /* background-color: yellow; */
+    height: 90vh;
+    width: 60%;
+    margin: 1%;
+    margin-top: 80px;
+  }
+
+  .isi-testimoni {
+    /* background-color: green; */
+    align-items: center;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .testi-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    display: block;
+    
+    width: 16rem !important;
+    margin-left: 0px !important;
+    margin-bottom: 2% !important;
+  }
+
+  .nama-testi {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    padding-left: 30px !important;
+
+    letter-spacing: 1px !important;
+
+    color: #ffb548;
+  }
+
+  .job-testi {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: justify;
+
+    color: #ffffff;
+
+    opacity: 0.5;
+  }
+
+  .card-body .quotes {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #ffffff;
+  }
+
+  .quotes .date-post {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  /* Background News Latter */
+  .news-latter {
+    background-color: #080a0b !important;
+    height: 100% !important;
+  }
+
+  .news-body {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column !important;
+    height: 100% !important;
+  }
+
+  .news-image {
+    /* background-color: blue; */
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0px !important;
+    /* margin-top: 0px !important; */
+    /* margin-left: 5%; */
+  }
+
+  .image-newslatter {
+    /* image: url("assets/image-newslatter.png"); */
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .news-info {
+    /* background-color: blue; */
+    position: absolute !important;
+    height: 0px !important;
+    width: 100% !important;
+    margin: 1%;
+    margin-top: 80px;
+    padding-right: 50px;
+  }
+
+  .news-info h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 28px;
+    text-align: center !important;
+
+    letter-spacing: 2px;
+
+    color: #ffffff;
+  }
+
+  .news-info h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px !important;
+    line-height: 50px !important;
+    text-align: center !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .news-info .keterangan {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+    /* or 122% */
+
+    color: #ffffff;
+  }
+
+  .email-info {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 10px !important;
+    align-items: center;
+    /* margin: 0 auto; */
+  }
+
+  .email-address {
+    padding: 1%;
+    padding-left: 4%;
+    width: 366.92px;
+    height: 60px;
+    left: 675.92px;
+    top: 510.7px;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+  }
+
+  .title-emailaddress {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 4px;
+  }
+
+  .emailme {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #ffb548;
+  }
+
+  .btn-subscribe {
+    width: 366.92px;
+    height: 60px;
+    left: 675.92px;
+    top: 510.7px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1a1917;
+  }
+
+  /* Footer */
+  footer {
+    width: 100% !important;
+    height: 100% !important;
+    left: 0px !important;
+    top: 0px !important;
+    background-color: #080a0b;
+    padding: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  footer .isi-footer {
+    background-color: #080a0b;
+    padding: 10px;
+    height: 100% !important;
+    padding-bottom: 160px !important;
+  }
+
+  .menu-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column !important;
+    padding-left: 10px !important;
+  }
+
+  .menu-footer li {
+    padding-left: 10px !important;
+    padding-right: 0px !important;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .sosmed-logo ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .sosmed-logo li {
+    padding-left: 0px !important;
+    text-align: center;
+  }
+
+  /* Footer */
+  .copyright {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .privacy-policy {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .email-info {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 10px !important;
+    margin: 0px !important;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Challenge Chapter 4 - Alex Jhosan Abdillah</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="logo-title" style="padding-top: 5%;">
+            <a href="/">
+                <div class="panah">
+                    <h2><</h2>
+                </div>
+            </a>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo">
+            </div>
+           
+            <div class="title">
+                <h3>ROCK PAPER SCISSORS</h3>
+            </div>
+        </section>
+
+        <section class="section-game">
+
+            <div class="player-1">
+                <div class="title-sectiongame">
+                    <h2>PLAYER 1</h2>
+                </div>
+                <div class="player-batu">
+                    <img src="assets/img/batu.png" alt="Batu" class="img-suit" id="player-batu">
+                </div>
+
+                <div class="player-kertas">
+                    <img src="assets/img/kertas.png" alt="Kertas" class="img-suit" id="player-kertas">
+                </div>
+                <div class="player-gunting">
+                    <img src="assets/img/gunting.png" alt="Gunting" class="img-suit" id="player-gunting">
+                </div>
+            </div>
+
+            <div class="content-tengah">
+                <div>
+                    <div id="vs">
+                        <h1>VS</h1>                 
+                    </div>
+                    <h3 id="result-message"></h3>
+                    <div class="refresh-button" style="text-align: center;">
+                        <button type="button" onclick="reloadPage()" style="background-color: transparent; border: none;">
+                        <img src="assets/img/refresh.png" alt="Refresh" width="60">
+                    </button>
+                    <p  id="refreshButton"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="com">
+                <div class="title-sectiongame">
+                    <h2>COM</h2>
+                </div>
+                
+                <div class="com-batu">
+                    <img src="assets/img/batu.png" alt="Batu" class="img-suit" id="com-batu">
+                </div>
+
+                <div class="com-kertas">
+                    <img src="assets/img/kertas.png" alt="Kertas" class="img-suit" id="com-kertas">
+                </div>
+                <div class="com-gunting">
+                    <img src="assets/img/gunting.png" alt="Gunting" class="img-suit" id="com-gunting">
+                </div>
+                
+            </div>
+
+        </section>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
