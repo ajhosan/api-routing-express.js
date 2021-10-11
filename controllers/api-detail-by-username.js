@@ -8,8 +8,9 @@ const getByUsername = (req, res) => {
   
     const post = posts.find((value) => value.username === username)
 
-    if(password === post.password){
-      if(post != undefined){
+
+    if(post != undefined){
+      if(password === post.password){
         return res.status(200).json({
           code:200,
           message: 'Akun Berhasil Login',
@@ -17,21 +18,22 @@ const getByUsername = (req, res) => {
           error: null
       })
       }else{
-        return res.status(404).json({
-          code:404,
-          message: 'Akun Not Found',
+        return res.status(500).json({
+          code:500,
+          message: 'Password tidak sama',
           data: null,
           error: null
       })
       }
     }else{
-      return res.status(500).json({
-        code:500,
-        message: 'Password tidak sama',
+      return res.status(404).json({
+        code:404,
+        message: 'Akun Not Found',
         data: null,
         error: null
     })
     }
+    
   
     
     
